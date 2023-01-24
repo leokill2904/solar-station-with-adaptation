@@ -1,0 +1,125 @@
+.footer{
+    margin-top: 30px;
+    background-color: var(--secondary-background-color);
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    overflow: hidden;
+    @media (min-width:1200px){
+        margin-top: 150px;  
+    }
+}
+.footer__request {
+    margin: 0px auto;
+    @media (min-width:768px){
+        display: flex;
+        justify-content: center;
+    }
+    @media (min-width:1200px){
+        justify-content: flex-start;
+    }
+
+  }
+  .footer__form {
+    margin-right: 90px;
+  }
+.footer__title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.37;
+  color: var(--tertiary-text-color);
+  text-transform: uppercase;
+  @media (min-width:768px){
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  @media (min-width:1200px){
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  }
+  input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: var(--accent-color);
+    outline: none;
+    font-family: inherit;
+    @media (min-width:1200px){
+        width: 510px;
+    }
+
+  }
+  input::placeholder{
+    color: var(--tertiary-text-color);
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  .footer-contacts__title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--tertiary-text-color);
+  text-transform: uppercase;
+  @media (min-width:768px){
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  @media (min-width:1200px){
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  }
+  .footer-contacts__item{
+    margin-top: 15px;
+  }
+  .footer-contacts__list, .footer-contacts__link{
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.38;
+    color: var(--tertiary-text-color);
+    @media (min-width:768px){
+        font-size: 14px;
+    }
+    @media (min-width:1200px){
+        font-size: 18px;
+    }
+  }
+  .footer__bottom-menu {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    @media (min-width:1200px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 120px;
+    }
+
+  }
+  
+  .footer__policy{
+    font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--tertiary-text-color);
+  }
+  .footer__logo{
+    margin: 20px auto;
+  }
+  .logo__footer{
+    fill: white;
+  }
